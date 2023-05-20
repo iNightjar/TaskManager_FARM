@@ -3,7 +3,7 @@ from model import Todo
 # MongoDB Driver
 import motor.motor_asyncio
 
-# connection instansiator instance with MONGODB Tybe DB.
+# connection  instance with MONGODB Tybe DB.
 client = motor.motor_asyncio.AsyncIOMotorClient('mongodb://localhost:27017')
 
 database = client.TodoList # DB Name: TodoList

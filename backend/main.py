@@ -18,7 +18,7 @@ from model import Todo
 app = FastAPI()
 
 
-origings = ['https://localhost:3000']
+origings = ['http://localhost:3000'] # allowd hosts to see our endpoints
 
 app.add_middleware(
     CORSMiddleware,
