@@ -18,7 +18,11 @@ from model import Todo
 app = FastAPI()
 
 
+<<<<<<< Updated upstream
 origings = ['http://localhost:3000'] # allowd hosts to see our endpoints
+=======
+origings = ['http://localhost:3000']
+>>>>>>> Stashed changes
 
 app.add_middleware(
     CORSMiddleware,
